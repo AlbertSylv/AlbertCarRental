@@ -23,7 +23,7 @@ public class Garage {
 		for (Car c : garageCars) {
 			retValHtml += "<li>"+ c.getMake()+ "</li>";
 		}
-		retValHtml += "</ul></html>";
+		retValHtml += "</ul><p>Hej!</p></html>";
 		return  retValHtml;
 	}
 	
